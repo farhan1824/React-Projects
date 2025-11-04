@@ -1,6 +1,6 @@
 # Logs
 
-node_modules
-topsecret
+node_modules/
+topsecret/
 package.json
 package-lock.json
