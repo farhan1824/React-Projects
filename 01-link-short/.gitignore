@@ -1,12 +1,18 @@
-# Dependencies and Logs
-node_modules/
+# 1. Ignore everything recursively
+*
 
+# 2. UN-IGNORE the .gitignore file itself (required)
+!.gitignore
 
-# Top Secret directory
-topsecret/
+# 3. UN-IGNORE the README file (required for good practice)
+!README.md
 
-# Package files (if you only want to ignore lock file, change this)
-package.json
-package-lock.json
+# 4. UN-IGNORE the root directory (so we can see the folders)
+!*/
 
-# You may also need a trailing blank line
+# 5. EXPLICITLY UN-IGNORE the one project folder you want to keep
+!01-link-short/
+
+# 6. UN-IGNORE the content *inside* the project folder (required for the files to show up)
+/01-link-short/*
+!/01-link-short/**
