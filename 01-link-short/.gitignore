@@ -1,6 +1,12 @@
-# Logs
-
+# Dependencies and Logs
 node_modules/
+
+
+# Top Secret directory
 topsecret/
+
+# Package files (if you only want to ignore lock file, change this)
 package.json
 package-lock.json
+
+# You may also need a trailing blank line
